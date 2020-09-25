@@ -10,8 +10,8 @@ end
 
 def current_player
   if number_of_turns % 2
-    "X"
+    return "X"
   else
-    "O"
+    return "O"
   end
 end
