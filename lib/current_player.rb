@@ -5,6 +5,7 @@ def turn_count(board)
       nil
     else
       number_of_turns += 1
+    end
   end
 end
 
