@@ -10,8 +10,8 @@ end
 
 def current_player
   if number_of_turns % 2
-    current_player == "X"
+    "X"
   else
-    current_player == "O"
+    "O"
   end
 end
